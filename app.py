@@ -9,6 +9,10 @@ def multiply(a: int, b: int) -> int:
     """Multiply two numbers together."""
     return a * b
 
+def divide(a: int, b: int) -> int:
+    """Divide two numbers together."""
+    return a / b
+    
 def is_even(n: int) -> bool:
     """Check if a number is even."""
     return n % 2 == 0
